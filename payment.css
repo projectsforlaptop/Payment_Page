@@ -170,15 +170,21 @@ input:checked + .payment-method-item::before {
 
 
 /* start: Breakpoints */
-/*@media screen and (max-width: 767px) {*/
- @media (max-width: 380px) and (min-width: 767px){
+@media (min-width: 380px) and (max-width: 767px){
     .flex {
         display: block;
+        
     }
-    .payment-method{
-        justify-content: space-evenly;
+
+    
+    .payment-section{
+        width: 100%;
        
-    }
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
 
     
 }
