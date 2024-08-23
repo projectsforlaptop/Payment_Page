@@ -178,14 +178,17 @@ input:checked + .payment-method-item::before {
 
     
     .payment-section{
-        width: 80%;
-        
-       
-        margin: 0;
+        width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
         position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+
+    }
+    .container{
+        border-radius: 15px;
     }
     
 }
