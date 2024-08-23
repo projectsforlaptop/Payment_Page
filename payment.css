@@ -170,7 +170,7 @@ input:checked + .payment-method-item::before {
 
 
 /* start: Breakpoints */
-@media (min-width: 380px) and (max-width: 767px){
+ @media (min-width: 380px) and (max-width: 767px){
     .flex {
         display: block;
         
@@ -185,7 +185,7 @@ input:checked + .payment-method-item::before {
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-
+    }
     
 }
 /* end: Breakpoints */
